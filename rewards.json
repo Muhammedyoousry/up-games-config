@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "protocol": 2,
+  "timing": {
+    "background_ms": 300000,
+    "share_first_ms": 60000,
+    "share_repeat_ms": 1800000,
+    "follow_first_ms": 120000,
+    "dialog_gap_ms": 600000,
+    "tick_ms": 300000,
+    "share_recheck_ms": 86400000,
+    "follow_recheck_ms": 21600000,
+    "claim_retry_ms": 21600000,
+    "download_busy_ms": 300000,
+    "config_refresh_ms": 900000,
+    "http": {
+      "connect_ms": 8000,
+      "read_ms": 12000
+    }
+  },
+  "links": {
+    "play_url": "",
+    "server_url": "",
+    "telegram_channel_url": "https://t.me/upgamesps123psp",
+    "telegram_bot": "UPGamesRewardsBot",
+    "telegram_follow": "https://t.me/upgamesps123psp"
+  },
+  "campaigns": {
+    "share1": {
+      "enabled": true,
+      "reward_ms": 604800000,
+      "platforms": [
+        "facebook",
+        "youtube",
+        "tiktok",
+        "instagram",
+        "whatsapp",
+        "telegram"
+      ],
+      "required": []
+    },
+    "share2": {
+      "enabled": true,
+      "reward_ms": 604800000
+    },
+    "follow": {
+      "enabled": true,
+      "reward_ms": 86400000,
+      "platforms": [
+        "telegram"
+      ],
+      "required": [
+        "telegram"
+      ]
+    }
+  },
+  "share": {
+    "text": {
+      "en": "I am downloading PS1, PS2, PS3 and PSP games from UP GAMES PS1 PS2 PS3 PSP {link} {code}",
+      "ar": "أنا ألعب وأحمّل ألعاب PS1 وPS2 وPS3 وPSP من UP GAMES PS1 PS2 PS3 PSP {link} {code}",
+      "fr": "Je télécharge des jeux PS1, PS2, PS3 et PSP depuis UP GAMES PS1 PS2 PS3 PSP {link} {code}",
+      "es": "Estoy descargando juegos de PS1, PS2, PS3 y PSP de UP GAMES PS1 PS2 PS3 PSP {link} {code}",
+      "pt": "Estou baixando jogos de PS1, PS2, PS3 e PSP de UP GAMES PS1 PS2 PS3 PSP {link} {code}",
+      "tr": "UP GAMES PS1 PS2 PS3 PSP üzerinden PS1, PS2, PS3 ve PSP oyunları indiriyorum {link} {code}",
+      "ru": "Я скачиваю игры PS1, PS2, PS3 и PSP из UP GAMES PS1 PS2 PS3 PSP {link} {code}",
+      "de": "Ich lade PS1-, PS2-, PS3- und PSP-Spiele von UP GAMES PS1 PS2 PS3 PSP herunter {link} {code}",
+      "it": "Sto scaricando giochi PS1, PS2, PS3 e PSP da UP GAMES PS1 PS2 PS3 PSP {link} {code}"
+    },
+    "text_no_link": {
+      "en": "I am downloading PS1, PS2, PS3 and PSP games from UP GAMES PS1 PS2 PS3 PSP - code {code}",
+      "ar": "أنا ألعب وأحمّل ألعاب PS1 وPS2 وPS3 وPSP من UP GAMES PS1 PS2 PS3 PSP - الكود {code}",
+      "fr": "Je télécharge des jeux PS1, PS2, PS3 et PSP depuis UP GAMES PS1 PS2 PS3 PSP - code {code}",
+      "es": "Estoy descargando juegos de PS1, PS2, PS3 y PSP de UP GAMES PS1 PS2 PS3 PSP - código {code}",
+      "pt": "Estou baixando jogos de PS1, PS2, PS3 e PSP de UP GAMES PS1 PS2 PS3 PSP - código {code}",
+      "tr": "UP GAMES PS1 PS2 PS3 PSP üzerinden PS1, PS2, PS3 ve PSP oyunları indiriyorum - kod {code}",
+      "ru": "Я скачиваю игры PS1, PS2, PS3 и PSP из UP GAMES PS1 PS2 PS3 PSP - код {code}",
+      "de": "Ich lade PS1-, PS2-, PS3- und PSP-Spiele von UP GAMES PS1 PS2 PS3 PSP herunter - Code {code}",
+      "it": "Sto scaricando giochi PS1, PS2, PS3 e PSP da UP GAMES PS1 PS2 PS3 PSP - codice {code}"
+    }
+  },
+  "media": {
+    "image": {
+      "file": "",
+      "sha256": ""
+    },
+    "video": {
+      "file": "",
+      "sha256": ""
+    },
+    "file_max_bytes": 26214400,
+    "cache_max_bytes": 125829120
+  }
+}
