@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "protocol": 2,
   "timing": {
     "background_ms": 300000,
@@ -20,10 +20,22 @@
   },
   "links": {
     "play_url": "",
-    "server_url": "",
+    "server_url": "https://upgames-reward.muhammedyoousry.workers.dev",
     "telegram_channel_url": "https://t.me/upgamesps123psp",
     "telegram_bot": "UPGamesRewardsBot",
-    "telegram_follow": "https://t.me/upgamesps123psp"
+    "telegram_follow": "https://t.me/upgamesps123psp",
+    "follow_links": {
+      "facebook": "https://www.facebook.com/Upcode.Developer.Official",
+      "youtube": "https://www.youtube.com/@Upcode.Developer.Official",
+      "instagram": "https://www.instagram.com/upcode.developer.official",
+      "tiktok": "https://vm.tiktok.com/ZS9yn5LXQgGmE-jAjoX/",
+      "telegram": "https://t.me/upcode_developer",
+      "x": "https://x.com/UpcodeDev"
+    }
+  },
+  "telegram_verify": {
+    "channel_username": "upcode_developer",
+    "bot_username": "UPGamesRewardsBot"
   },
   "campaigns": {
     "share1": {
@@ -51,7 +63,8 @@
       ],
       "required": [
         "telegram"
-      ]
+      ],
+      "pages_required": 3
     }
   },
   "share": {
@@ -80,12 +93,12 @@
   },
   "media": {
     "image": {
-      "file": "",
-      "sha256": ""
+      "file": "share-poster.png",
+      "sha256": "541174cb3da6eca74174981aced3eebdac89cf2512ce9174900913089c250d4c"
     },
     "video": {
-      "file": "",
-      "sha256": ""
+      "file": "share-clip.mp4",
+      "sha256": "55a6d22f48ddeb8c84c06048d24dc3507b2902d488b50042621f0174e9d98741"
     },
     "file_max_bytes": 26214400,
     "cache_max_bytes": 125829120
