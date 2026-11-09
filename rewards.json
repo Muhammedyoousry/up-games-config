@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "protocol": 2,
   "timing": {
     "background_ms": 300000,
@@ -64,7 +64,7 @@
       "required": [
         "telegram"
       ],
-      "pages_required": 3
+      "pages_required": 6
     }
   },
   "share": {
